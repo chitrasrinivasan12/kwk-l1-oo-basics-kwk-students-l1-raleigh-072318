@@ -1,23 +1,24 @@
 class Car 
-  def initialize car(model, make, year)
+
+  def initialize(model, make, year)
     @carmodel = model 
     @carmake = make 
-    @caryear = year
+    @birthyear = year 
   end 
-  
+ 
   def model 
-    @carmodel
-  end 
-  
-  def make
-    @carkame
+    @carmodel 
+   end 
+ 
+  def make 
+    @carmake
   end 
   
   def year
-    @caryear
+    @birthyear 
   end 
   
-end 
+end
 
 toyota = car.new("Camry", "Toyota", "2017")
 
