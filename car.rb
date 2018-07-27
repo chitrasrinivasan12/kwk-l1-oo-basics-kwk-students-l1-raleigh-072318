@@ -27,4 +27,8 @@ toyota.year
 
 puts "This is my #{toyota.model}. It is a #{toyota.make}. It was made in #{toyota.year}."
 
+subaru = Car.new("outback", "subaru", "2015")
+subaru.model 
+subaru.make 
+subaru.year
   
