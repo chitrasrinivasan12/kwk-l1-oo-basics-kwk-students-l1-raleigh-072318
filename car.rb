@@ -31,4 +31,6 @@ subaru = Car.new("outback", "subaru", "2015")
 subaru.model 
 subaru.make 
 subaru.year
+
+puts "This is my #{subaru.model}. It is a #{subaru.make}. It was made in #{subaru.year}."
   
