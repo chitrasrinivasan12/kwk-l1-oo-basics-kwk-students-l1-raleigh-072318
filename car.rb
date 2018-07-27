@@ -20,12 +20,9 @@ class Car
   
 end
 
-toyota = car.new("Camry", "Toyota", "2017")
-
-toyota.model
-
-toyota.make
-
+toyota = Car.new("camry", "toyota", "2017")
+toyota.model 
+toyota.make 
 toyota.year
 
   
